@@ -18,6 +18,13 @@
 	<div class="form-group">
 		<button class="btn btn-primary btn-block" type="submit">Login</button>
 	</div>
+	{{-- <div class="form-group">
+		<button class="btn btn-primary btn-block" type="submit">Login Google</button>
+	</div> --}}
+	{{-- <a href="{{ url('auth/google') }}">
+ 	 <img src="https://developers.google.com/identity/images/btn_google_signin_dark_normal_web.png"/>
+	</a> --}}
+
 </form>
 <!-- /Form -->
 

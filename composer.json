@@ -12,6 +12,7 @@
         "fx3costa/laravelchartjs": "^2.8",
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.12",
+        "laravel/socialite": "^5.17",
         "laravel/tinker": "^2.5",
         "pusher/pusher-php-server": "^7.0",
         "qcod/laravel-app-settings": "^1.4",

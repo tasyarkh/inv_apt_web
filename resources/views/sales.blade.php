@@ -7,10 +7,10 @@
 
 @push('page-header')
 <div class="col-sm-7 col-auto">
-	<h3 class="page-title">Penjualan</h3>
+	<h3 class="page-title">Obat Keluar</h3>
 	<ul class="breadcrumb">
 		<li class="breadcrumb-item"><a href="{{route('dashboard')}}">Dashboard</a></li>
-		<li class="breadcrumb-item active">Penjualan</li>
+		<li class="breadcrumb-item active">Penjualan / Barang Keluar</li>
 	</ul>
 </div>
 @can('create-sales')
@@ -80,7 +80,7 @@
 	<div class="modal-dialog modal-dialog-centered" role="document">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title">Sell Product</h5>
+				<h5 class="modal-title">Obat Keluar</h5>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
@@ -91,7 +91,7 @@
 					<div class="row form-row">
 						<div class="col-12">
 							<div class="form-group">
-								<label>Product <span class="text-danger">*</span></label>
+								<label>Obat <span class="text-danger">*</span></label>
 								<select class="select2 form-select form-control" name="product"> 
 									@foreach ($products as $product)
 										@if (!empty($product->purchase))
@@ -106,12 +106,12 @@
 						<input type="hidden" name="">
 						<div class="col-12">
 							<div class="form-group">
-								<label>Quantity</label>
+								<label>Kuantitas</label>
 								<input type="number" value="1" class="form-control" name="quantity">
 							</div>
 						</div>
 					</div>
-					<button type="submit" class="btn btn-primary btn-block">Save Changes</button>
+					<button type="submit" class="btn btn-primary btn-block">Simpan</button>
 				</form>
 			</div>
 		</div>
